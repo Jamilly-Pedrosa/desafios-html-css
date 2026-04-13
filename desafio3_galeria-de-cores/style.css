@@ -1,0 +1,53 @@
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.cor {
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.cor.vermelho {
+    background-color: red;
+}
+
+.cor.verde {
+    background-color: green;
+}
+
+.cor.azul {
+    background-color: blue;
+}
+
+.cor.amarelo {
+    background-color: yellow;
+}
+
+.cor.roxo {
+    background-color: purple;
+}
+
+.cor.laranja {
+    background-color: orange;
+}
+
+.cor:hover {
+    transform: scale(1.1);
+}
+
+/* Tipografia */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header h1 {
+    text-align: center;
+    color: #333;
+}
